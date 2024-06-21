@@ -1,9 +1,9 @@
 # Probabilidade_de_Falha_de_Equipamentos
-Aplicação: https://89zvv1-felipe-alexandre.shinyapps.io/Probabilidade_quebra_de_equipamentos/
+### Aplicação: https://89zvv1-felipe-alexandre.shinyapps.io/Probabilidade_quebra_de_equipamentos/
 
 
 
-Previsão da Probabilidade de Falhas em EquipamentosPrevisão da Probabilidade de Falhas em Equipamentos
+## Previsão da Probabilidade de Falhas em EquipamentosPrevisão da Probabilidade de Falhas em Equipamentos
 jun de 2024 - jun de 2024jun de 2024 - jun de 2024
 Esta aplicação Shiny, intitulada "Probabilidade de Falha em Equipamentos", calcula e visualiza a probabilidade de falhas em equipamentos usando a distribuição de Poisson. A interface é intuitiva e interativa, permitindo ao usuário inserir dados e selecionar diferentes tipos de cálculos probabilísticos.
 
