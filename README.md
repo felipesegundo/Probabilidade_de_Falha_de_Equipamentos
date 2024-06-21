@@ -2,29 +2,36 @@
 Aplicação: https://89zvv1-felipe-alexandre.shinyapps.io/Probabilidade_quebra_de_equipamentos/
 
 
-Previsão - Qualidade de veículos com Machine LearningPrevisão - Qualidade de veículos com Machine Learning
+
+Previsão da Probabilidade de Falhas em EquipamentosPrevisão da Probabilidade de Falhas em Equipamentos
 jun de 2024 - jun de 2024jun de 2024 - jun de 2024
-Descrição do Projeto: Previsão da Qualidade de Veículos com Naive Bayes na Plataforma Shiny
+Esta aplicação Shiny, intitulada "Probabilidade de Falha em Equipamentos", calcula e visualiza a probabilidade de falhas em equipamentos usando a distribuição de Poisson. A interface é intuitiva e interativa, permitindo ao usuário inserir dados e selecionar diferentes tipos de cálculos probabilísticos.
 
-Desenvolvi uma aplicação interativa em R usando Shiny para prever a qualidade de veículos. O projeto utiliza o modelo de machine learning Naive Bayes, conhecido por sua eficiência e simplicidade em classificações probabilísticas.
+Funcionalidades Principais:
+Seleção de Cálculo:
 
-Componentes do Projeto:
-Plataforma Shiny:
-A aplicação oferece uma interface amigável e dinâmica, permitindo que os usuários interajam facilmente com o modelo de previsão.
+Probabilidade Exata: Calcula a probabilidade exata de um determinado número de falhas.
+Menos que: Calcula a probabilidade cumulativa de falhas menores ou iguais ao valor especificado.
+Mais que: Calcula a probabilidade cumulativa de falhas maiores que o valor especificado.
+Entrada de Dados:
 
-Algoritmo Naive Bayes:
-O modelo é treinado para prever a qualidade dos veículos com base em suas características, aproveitando a simplicidade e eficiência do Naive Bayes.
+Ocorrência Atual: Permite inserir o número de falhas observadas, com valores entre 1 e 99.
+Visualização Gráfica:
 
-Fluxo de Trabalho:
+Gráfico de Barras: Exibe a probabilidade das falhas em um gráfico de barras colorido, facilitando a interpretação visual.
+Estética e Usabilidade:
+Estilo Customizado: Inclui um estilo CSS para uma interface mais atraente e fácil de usar.
+Interatividade: Atualizações automáticas no gráfico com base nas entradas do usuário.
+Público-Alvo:
+Ideal para engenheiros, técnicos de manutenção, analistas de confiabilidade e outros profissionais que precisam avaliar a probabilidade de falhas em equipamentos, em setores como manufatura, aviação e TI.
 
-Preparação dos Dados: Limpeza e normalização dos dados dos veículos, seguidos pela divisão em conjuntos de treinamento e teste.
-Treinamento do Modelo: O modelo aprende as relações entre as características dos veículos e suas qualidades.
-Validação: Avaliação do modelo usando métricas como acurácia, precisão e recall.
-Implementação no Shiny: Integração do modelo treinado na aplicação Shiny para previsões interativas.
-Funcionalidades da Aplicação Shiny:
+Benefícios:
+Tomada de Decisões Informada: Ajuda na manutenção preventiva e na alocação de recursos.
+Eficiência: Simplifica o cálculo de probabilidades, economizando tempo e reduzindo erros.
+Flexibilidade: Suporta diferentes tipos de cálculos probabilísticos para uma análise abrangente.
+Com esta aplicação, os usuários podem facilmente calcular e visualizar a probabilidade de falhas em seus equipamentos, melhorando a manutenção preventiva e a gestão de ativos.
 
-Interface de Usuário: Permite a inserção de dados dos veículos e a obtenção de previsões de qualidade em tempo real.
-Feedback: Informações sobre a confiança das previsões e como as características influenciam a qualidade.
+Esta versão mantém a essência da descrição original, destacando as principais funcionalidades e benefícios, mas de forma mais concisa.
 Benefícios do Projeto:
 
 Interatividade: Facilita o uso por pessoas com pouco conhecimento em machine learning.
